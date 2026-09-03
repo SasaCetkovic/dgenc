@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+
+# IDEs
+.idea
+.vscode
+
+# Other
+.DS_Store
+.bmad-loop/runs/
+.bmad-loop/cache/
+.bmad-loop/policy.toml
+_bmad/render/
+output/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+logs/
+_bmad_output/implementation-artifacts/spec-4-3-attempted-change.patch
+
+*.7z
+*.py
+*.json
+*.md
+*.toml
+!*.7z.b64
